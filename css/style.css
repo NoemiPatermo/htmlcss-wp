@@ -41,9 +41,14 @@ li{
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 5px;
+
+}
+.text{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.5);
     
 }
-
     
 }
 .blu{
