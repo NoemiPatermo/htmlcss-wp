@@ -7,27 +7,43 @@
 .container{
   width: 900px;
   margin: 0 auto;
-  
-      
+       
+}
+#logo{
+    width: 150px;
+    height: 70px;
 }
 
 header{
     height: 70px;
     width: 70;
-    background-color: palevioletred;
     margin-bottom: 20px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+}
+
+
+
+
+.banner{
+    height: 200px;
+    width: 100%;
+    background-color: tomato;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+    
 }
 .blu{
     background-color: blue;
-    
-    
-}
-.text{
-    height: 200px;
-    width: 100%;
-    background-color: yellowgreen;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 
