@@ -47,7 +47,9 @@ li{
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     color:rgba(0, 0, 0, 0.5);
-    
+    padding-top: 250px;
+    padding-left: 50px;
+    padding-bottom: 200px;
 }
     
 }
@@ -66,9 +68,12 @@ li{
 
 .leader{
     margin-top: 10px;
-    background-color: lightblue;
+    font-family: "Roboto", sans-serif;
     height: 50px;
     margin-bottom: 5px;
+}
+#tx{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .fl{
