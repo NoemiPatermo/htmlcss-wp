@@ -52,7 +52,7 @@ li{
     padding-bottom: 200px;
 }
     
-}
+
 .blu{
     background-color: blue;
 }
@@ -77,18 +77,19 @@ li{
 }
 
 .fl{
-    background-color: lightblue;
+    background-image: url("../img/img-1.jpg");
     float: left;
     height: 200px;
     margin-top: 30px;
     width:25%;
     margin-bottom: 10px;
+    border-radius: 5px;
 
 }
 
 
 .mid{
-    background-color:lightblue;
+    background-image: url("../img/banner-2.jpg");
     float: left;
     height: 200px;
     width: calc(50% - 30px);
@@ -98,12 +99,13 @@ li{
     margin-bottom: 10px;
 }
 .fr{
-    background-color:lightblue;
+    background-image: url("../img/img-3.jpg");
     float: right;
     height: 200px;
     width: 25%;
     margin-top: 30px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 footer{
