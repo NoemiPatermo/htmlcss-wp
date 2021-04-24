@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    
 }
 
 /*Utility Classes*/
@@ -13,9 +13,15 @@
 }
 .fl{
     float: left;
+    height: 200px;
+    width: 25%;
 }
+
+
 .fr{
     float: right;
+    height: 200px;
+    width: 25%;
 }
 /*End Utility Classes*/
 
@@ -54,6 +60,7 @@ li{
     margin-bottom: 20px;
     margin-top: 20px;
     border-radius: 5px;
+    border: 1px solid #0000;
 
 }
 .text{
@@ -76,58 +83,49 @@ li{
 }
 .main-container{
     height: 500px;
-    background-position: center;
-    margin-bottom: 15px;
-}
-section{
-    height: 500px;
-    margin-bottom: 15px;
-}
-.left{
-    background: url(../img/img-1.jpg);
-    background-size: cover;
-    height: 200px;
-    width: 25%;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-.pianta{
     
-    background-size: cover;
-    border:1px solid #0000;
-    border-radius: 10px;
-}
-.testo main{
-    padding-top: 350px;
-    padding-bottom: 50px;
-}
-h4{
-    margin: 20px 0 10px; 
 }
 
-.center{
+.left{
     
-    background-color: lightcoral;
     height: 200px;
-    width: calc(50% - 30px);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-image: url(../img/img-1.jpg);
+    background-size: cover;
+    
+}
+
+  
+
+.center{
+    height: 200px;
     margin-top: 30px;
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 10px;
-
+    background-image: url(../img/banner-2.jpg);
+    background-size: cover;
 }
+
 
 .right{
-    
-    background-color: lightblue;
     height: 200px;
-    width: 25%;
     margin-top: 30px;
     margin-bottom: 10px;
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
 }
 
 
+h4, p{
+    margin: 10px 0 10px;
+}
+.testo main{
+    
+    height: 50px;
 
+}
 
 
 
