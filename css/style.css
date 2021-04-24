@@ -4,9 +4,25 @@
     padding: 0;
 }
 
+/*Utility Classes*/
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*End Utility Classes*/
+
+
 .container{
-  width: 900px;
-  margin: 0 auto;
+  width: 1000px;
+  margin: 5px auto;
        
 }
 #logo{
@@ -29,9 +45,6 @@ li{
     font-size: 15px;
 }
 
-
-
-
 .banner{
     height: 400px;
     width: 100%;
@@ -52,22 +65,8 @@ li{
     padding-bottom: 200px;
 }
     
-
-.blu{
-    background-color: blue;
-}
-
-
-
-.clearfix::after{
-    content: "";
-    display: table;
-    clear: both;
-    
-}
-
 .leader{
-    margin-top: 10px;
+    margin-top: 5px;
     font-family: "Roboto", sans-serif;
     height: 50px;
     margin-bottom: 5px;
@@ -75,44 +74,75 @@ li{
 #tx{
     color: rgba(0, 0, 0, 0.5);
 }
-
-.fl{
-    background-image: url("../img/img-1.jpg");
-    float: left;
+.main-container{
+    height: 500px;
+    background-position: center;
+    margin-bottom: 15px;
+}
+section{
+    height: 500px;
+    margin-bottom: 15px;
+}
+.left{
+    background: url(../img/img-1.jpg);
+    background-size: cover;
     height: 200px;
+    width: 25%;
     margin-top: 30px;
-    width:25%;
     margin-bottom: 10px;
-    border-radius: 5px;
-
+}
+.pianta{
+    
+    background-size: cover;
+    border:1px solid #0000;
+    border-radius: 10px;
+}
+.testo main{
+    padding-top: 250px;
+    padding-bottom: 50px;
+}
+h4{
+    margin: 20px 0 10px; 
 }
 
-
-.mid{
-    background-image: url("../img/banner-2.jpg");
-    float: left;
+.center{
+    
+    background-color: lightcoral;
     height: 200px;
     width: calc(50% - 30px);
     margin-top: 30px;
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 10px;
+
 }
-.fr{
-    background-image: url("../img/img-3.jpg");
-    float: right;
+
+.right{
+    
+    background-color: lightblue;
     height: 200px;
     width: 25%;
     margin-top: 30px;
     margin-bottom: 10px;
-    border-radius: 5px;
 }
 
+
+
+
+
+
 footer{
-    background-color:darkviolet;
-    height: 50px;
+    height: 30px;
     width: 100%;
     margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    font-style: oblique;
+    text-align: center;   
+}
+#heart{
+    color: rgb(231, 35, 35);
 }
 
 
