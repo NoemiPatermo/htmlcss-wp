@@ -108,6 +108,8 @@ section{
     margin-bottom: 10px;
     background-image: url(../img/banner-2.jpg);
     background-size: cover;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 
