@@ -81,9 +81,7 @@ li{
 .main-container{
     height: 700px;   
 }
-section{
-    height: 700px;
-}
+
 
 .left{
     height: 200px;
@@ -111,7 +109,7 @@ section{
 }
 
 .centrale{
-    height: 200px;
+    
     width: 400px;
 }
 
